@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    background-repeat: no-repeat;
+    background-size: flex;
+    background-position: center; /*posicionar imagem no centro*/
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;/*colocar lado a lado*/
+    justify-content: center;/*centralizar e descer*/
+    align-items:center;/*centralizar e descer*/
+    color: #72767D;
+    
+    
+}
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;/*colocar lado a lado*/
+    justify-content: center;/*centralizar e descer*/
+    align-items: center;/*centralizar e descer*/
+    flex-direction: column;
+    
+}
+.entrance{
+    width: 60%;
+    display: flex;/*colocar lado a lado*/
+    justify-content: center;/*centralizar e descer*/
+    align-items: center;/*centralizar e descer*/
+    flex-direction: column;
+    padding: 30px 35px;
+}
+
+.left-login h1{
+    color: #FFFF;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;/*colocar lado a lado*/
+    justify-content: center;/*centralizar e descer*/
+    align-items: center;/*centralizar e descer*/
+    flex-direction: column;
+    font-size: 14px;
+}
+.card-login { /*Aqui ja é porcentagem pq ele já ta dentro de uma div*/
+    width: 50%;
+    height: 30%;
+    display: flex;/*colocar lado a lado*/
+    justify-content: center;/*centralizar e descer*/
+    align-items: center;/*centralizar e descer*/
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 15px;/*arredondar as bordas*/
+    background: #36393F;
+    box-shadow: 0px 10px 15px;/*colocar luz*/
+}
+.card-login h1{
+    color: #DCDDDE;
+    font-weight: 800;/*Fonte mais evidente*/
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.textfield input { /*Aqui ja é porcentagem pq ele já ta dentro de uma div*/
+    background-color: #40444B;
+    margin-bottom: 15px;/*distância do input*/
+    border-radius: 4px;
+    border: none;
+    color: #DCDDDE;
+    height: 40px;/*altura da barra do input*/
+    padding: 10px;
+    width: 100%;
+    outline: 0;/*tirar borda do input*/
+    box-sizing: border-box;/*deixa o input do tamanho da div*/
+}
+.textfield label{/*alterar nome de cima*/
+    color: #DCDDDE;
+    margin-bottom: 2px;
+}
+.textfield input::placeholder{
+    color: #DCDDDE;;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;/*Trocar os eixos X e Y*/
+    justify-content: center;
+}
+.btn-login{
+    text-align: center;
+}
+ button{
+    background-color: #7289DA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*alinhar o Entrar com a box*/
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;/*fazer com que o mouse selecione icon*/
+    font-weight: bold;
+    width: 10vw;
+    height: 4vh;
+    margin-top: 20px;
+}
